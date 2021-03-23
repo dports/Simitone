@@ -16,7 +16,7 @@ jobs:
       with:
         dotnet-version: 5.0.101
     - name: Restore dependencies
-      run: dotnet restore ./Simitone/Simitone.sln
+      run: dotnet restore ./Client/Simitone/Simitone.sln
     - name: Build
       run: dotnet build --no-restore
     - name: Test
